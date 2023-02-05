@@ -27,10 +27,9 @@ img.emoji {
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="ssp-search-css" href="https://www.triflingtales.tk/wp-content/plugins/simply-static-pro/assets/ssp-search.css?ver=1.2.4.5" media="all">
 <link rel="stylesheet" id="twenty-twenty-one-style-css" href="https://www.triflingtales.tk/wp-content/themes/twentytwentyone/style.css?ver=1.7" media="all">
 <link rel="stylesheet" id="twenty-twenty-one-print-style-css" href="https://www.triflingtales.tk/wp-content/themes/twentytwentyone/assets/css/print.css?ver=1.7" media="print">
-<script src="https://www.triflingtales.tk/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
-<script src="https://www.triflingtales.tk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://www.triflingtales.tk/wp-json/">
 <link rel="alternate" type="application/json" href="https://www.triflingtales.tk/wp-json/wp/v2/categories/1">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.triflingtales.tk/xmlrpc.php?rsd">
@@ -159,47 +158,13 @@ img.emoji {
 		<script>document.body.classList.remove("no-js");</script>	<script>if ( -1 !== navigator.userAgent.indexOf( 'MSIE' ) || -1 !== navigator.appVersion.indexOf( 'Trident/' ) ) {
 		document.body.classList.add( 'is-IE' );
 	}</script>
-	        <style>.searchwp-live-search-results {
-                opacity: 0;
-                transition: opacity .25s ease-in-out;
-                -moz-transition: opacity .25s ease-in-out;
-                -webkit-transition: opacity .25s ease-in-out;
-                height: 0;
-                overflow: hidden;
-                z-index: 9999995; /* Exceed SearchWP Modal Search Form overlay. */
-                position: absolute;
-                display: none;
-            }
-
-            .searchwp-live-search-results-showing {
-                display: block;
-                opacity: 1;
-                height: auto;
-                overflow: auto;
-            }
-
-            .searchwp-live-search-no-results {
-                padding: 3em 2em 0;
-                text-align: center;
-            }
-
-            .searchwp-live-search-no-min-chars:after {
-                content: "Continue typing";
-                display: block;
-                text-align: center;
-                padding: 2em 2em 0;
-            }</style>
-                <script>var _SEARCHWP_LIVE_AJAX_SEARCH_BLOCKS = true;
-            var _SEARCHWP_LIVE_AJAX_SEARCH_ENGINE = 'default';
-            var _SEARCHWP_LIVE_AJAX_SEARCH_CONFIG = 'default';</script>
-        <script id="twenty-twenty-one-ie11-polyfills-js-after">
+	<script src="https://www.triflingtales.tk/wp-content/plugins/simply-static-pro/assets/fuse.js?ver=6.1.1" id="ssp-fuse-js"></script>
+<script src="https://www.triflingtales.tk/wp-content/plugins/simply-static-pro/assets/ssp-search.js?ver=1.2.4.5" id="ssp-search-js"></script>
+<script id="twenty-twenty-one-ie11-polyfills-js-after">
 ( Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach ) || document.write( '<script src="http://localhost/wp/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=1.7"><\/scr' + 'ipt>' );
 </script>
 <script src="https://www.triflingtales.tk/wp-content/themes/twentytwentyone/assets/js/primary-navigation.js?ver=1.7" id="twenty-twenty-one-primary-navigation-script-js"></script>
 <script src="https://www.triflingtales.tk/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=1.7" id="twenty-twenty-one-responsive-embeds-script-js"></script>
-<script id="swp-live-search-client-js-extra">var searchwp_live_search_params = [];
-searchwp_live_search_params = {"ajaxurl":"https:\/\/www.triflingtales.tk\/wp-admin\/admin-ajax.php","origin_id":1,"config":{"default":{"engine":"default","input":{"delay":300,"min_chars":3},"results":{"position":"top","width":"auto","offset":{"x":0,"y":5}},"spinner":{"lines":12,"length":8,"width":3,"radius":8,"scale":1,"corners":1,"color":"#424242","fadeColor":"transparent","speed":1,"rotate":0,"animation":"searchwp-spinner-line-fade-quick","direction":1,"zIndex":2000000000,"className":"spinner","top":"50%","left":"50%","shadow":"0 0 1px transparent","position":"absolute"}}},"msg_no_config_found":"No valid SearchWP Live Search configuration found!","aria_instructions":"When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures."};;</script>
-<script src="https://www.triflingtales.tk/wp-content/plugins/searchwp-live-ajax-search/assets/javascript/dist/script.min.js?ver=1.7.4" id="swp-live-search-client-js"></script>
 		<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);</script>
 		
 </body>
